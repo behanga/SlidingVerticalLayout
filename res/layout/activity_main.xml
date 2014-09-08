@@ -1,0 +1,142 @@
+<com.example.slidingvertical.SlidingVerticalLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    tools:context="com.example.slidingvertical.MainActivity" >
+
+<LinearLayout 
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding5"
+    android:paddingRight="@dimen/padding5"
+    android:weightSum="1" >
+ <TextView
+        android:id="@+id/checkin_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffedebeb"
+        android:gravity="center_vertical|left"
+        android:paddingBottom="@dimen/padding2"
+        android:paddingLeft="@dimen/padding5"
+        android:paddingTop="@dimen/padding2"
+        android:textColor="@color/common_tab_text"
+        android:text="05-05 14:14"
+        android:textSize="@dimen/textsize14" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@color/common_gray"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding2"
+        android:paddingLeft="@dimen/padding5"
+        android:paddingRight="@dimen/padding5"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/checkin_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingBottom="@dimen/padding5"
+            android:paddingTop="@dimen/padding5"
+            android:textColor="@color/common_text"
+            android:textSize="@dimen/textsize15"
+            android:text="第384天打卡日记/学习了50个单词" />
+
+        <TextView
+            android:id="@+id/checkin_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingBottom="@dimen/padding10"
+            android:textSize="@dimen/textsize18"
+            android:text="今天背的很熟练,感觉自己的英语水平真的有所提升,阅读量也没那么吃力了,真棒!!" />
+    </LinearLayout>
+    </LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding5"
+    android:paddingRight="@dimen/padding5" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height4" />
+
+    <LinearLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_tab"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/container_comment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@color/common_tab"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/padding3" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin2"
+                android:layout_marginRight="@dimen/margin3"
+                android:layout_marginTop="@dimen/margin2"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:text="评论"
+                android:textSize="@dimen/textsize14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_like"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@color/common_tab"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding3"
+            android:paddingTop="@dimen/padding3" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin2"
+                android:layout_marginRight="@dimen/margin3"
+                android:layout_marginTop="@dimen/margin2"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:text="喜欢"
+                android:textSize="@dimen/textsize14" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+<android.support.v4.view.ViewPager
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+</com.example.slidingvertical.SlidingVerticalLayout>

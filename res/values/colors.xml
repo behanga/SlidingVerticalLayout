@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="sr_common_text">#ff171717</color>
+    <color name="sr_green_text">#ff209e85</color>
+    <color name="sr_gray_text">#ffc0bfbf</color>
+    <color name="sr_icon_text">#ff9a9795</color>
+    <color name="sr_icon_bg">#ffe2e2e2</color>
+
+    <!-- common -->
+    <color name="common_bg">#FFE4E4E4</color>
+    <color name="common_green">#FF209E85</color>
+    <color name="common_text">#FF9A9795</color>
+    <color name="common_checkin_text">#5F5F5F</color>
+    <color name="common_checkin_info_text">#919191</color>
+    <color name="common_feedback_text">#737170</color>
+    <color name="common_item_bg">#FFF5F5F5</color>
+    <color name="navigation_item_bg">#ECE8DD</color>
+    <color name="common_item_press_bg">#FFDFF0D8</color>
+    <color name="common_item_stroke">#FFDDDDDD</color>
+    <color name="common_header_text">#FF4C566C</color>
+    <color name="common_button_shadow">#FF808080</color>
+    <color name="common_light_green">#FF49AD99</color>
+    <color name="common_orange">#FFF8C1AB</color>
+    <color name="common_gray">#FFF5F5F5</color>
+    <color name="common_text_shadow">#FFFFFFFF</color>
+    <color name="common_button_bg">#FF1B9F86</color>
+    <color name="common_button_press_bg">#FF1F937C</color>
+    <color name="common_button_disable_bg">#FFE1DCDC</color>
+    <color name="common_header_stroke">#FFCFCECD</color>
+    <color name="common_transparent">#00000000</color>
+    <color name="common_share_green">#ff75c98e</color>
+    <color name="common_yellow">#fff5e391</color>
+    <color name="common_red">#ffd34d4c</color>
+    <color name="common_divide">#BDBDBD</color>
+    <color name="common_dialog_fragment_bg">#FFF3F3F3</color>
+    <color name="common_loading_more_text">#463a27</color>
+    <color name="common_tab_bg">#d3d3d3</color>
+    <color name="common_tab_text">#3D3D3D</color>
+    <color name="common_alpha">#64000000</color>
+    <color name="short_message_reply_bg_me">#209E85</color>
+    <color name="short_message_reply_bg_others">#EEEDED</color>
+    <color name="common_green_transparent">#22209E85</color>
+    <color name="common_green_gray">#EAEDF1</color>
+    <color name="common_yellow_bg">#F1EFE4</color>
+    <color name="common_button_red_bg">#FF9E2020</color>
+    <color name="common_button_red_press_bg">#FF82191A</color>
+    <color name="common_dialog_fragment_text">#8b8b8b</color>
+    <color name="common_text_dark">#FF5D5D5D</color>
+    <color name="common_recommend_group_bg">#F8F7EB</color>
+    <color name="sw_common_bg">#FFE4E4E4</color>
+    <color name="common_checkin_calendar_grap_text">#bccac9</color>
+    <color name="common_checkin_calendar_checkin_bg">#4dc3a9</color>
+    <color name="common_tab">#FFEDEBEB</color>
+
+</resources>
